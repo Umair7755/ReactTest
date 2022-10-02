@@ -1,0 +1,30 @@
+.create-parent {
+    width: 70%;
+    margin: 2rem auto;
+    background-color: white;
+    padding: 2rem;
+}
+
+.form-create {
+    margin-top: 1.5rem;
+}
+
+.create-btn {
+    background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+.create-heading {
+    color: #240D57;
+}
+
+.next-btn-parent {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    cursor: pointer;
+}

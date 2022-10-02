@@ -1,0 +1,132 @@
+.event-main {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.event-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.event-name-img1 {
+    width: 333px;
+    height: 37px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 55px;
+    display: flex;
+    align-items: center;
+    color: #240D57;
+}
+
+.event-name-img2 {
+    width: 155px;
+    height: 15px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #828282;
+    margin-top: 10px;
+}
+
+.event-date-time {
+    display: flex;
+    margin: 3rem 0px;
+    align-items: center;
+    position: relative;
+}
+
+.event-date-time-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1.5rem;
+}
+
+.fill {
+    width: 60px;
+    height: 60px;
+}
+
+.date {
+    width: 155px;
+    height: 21px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #240D57;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.datetime {
+    width: 253px;
+    height: 21px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #4F4F4F;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.street {
+    width: 104px;
+    height: 21px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #240D57;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.streetplus {
+    width: 196px;
+    height: 21px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #4F4F4F;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.cake {
+    width: 400px;
+    height: 400px;
+}
+
+.cake-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    right: 25px;
+    top: 50%;
+}
